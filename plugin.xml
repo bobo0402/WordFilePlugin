@@ -21,8 +21,8 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.berheley.main.plugins.WordFilePlugin”
-    version=“0.3.0”>
+    id="com.berheley.main.plugins.WordFilePlugin"
+    version="0.3.0">
     <name>WordFilePlugin</name>
     <description>Cordova WordFilePlugin Plugin</description>
     <license>Apache 2.0</license>
