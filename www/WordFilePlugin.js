@@ -8,6 +8,6 @@ cordova.define("com.berheley.main.plugins.WordFilePlugin.WordFilePlugin", functi
 	    exec(null, null, "WordFilePlugin", "exportJjyxbg", array);
 	};
 	
-	module.exports = wordFilePlugin; 
+	module.exports = wordFilePlugin;   
 
 });
