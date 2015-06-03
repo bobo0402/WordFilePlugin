@@ -115,7 +115,7 @@ UIWebView *web_view_doc ,*webView;
         //web_view = nil;
         //[self.webView delete:web_view];
         web_view_doc = Nil;
-        [web_view_doc release];
+        //[web_view_doc release];
         
     }
 
@@ -212,7 +212,7 @@ UIWebView *web_view_doc ,*webView;
     //if(!web_view_doc){
         UIButton *Btn;
         CGRect frame;
-        Btn = [[UIButton buttonWithType:UIButtonTypeCustom] retain]; //按钮的类型
+        Btn = [UIButton buttonWithType:UIButtonTypeCustom]; //按钮的类型
         //[Btn setImage:[UIImage imageNamed:@“loading001.png”] forState:UIControlStateNormal];//设置按钮图片
         Btn.tag = 10;
         //Btn.alpha = 0.5;
@@ -241,7 +241,7 @@ UIWebView *web_view_doc ,*webView;
     
 
 
-+ (NSArray *)getTraffic
+/*+ (NSArray *)getTraffic
 {
     BOOL   success;
     struct ifaddrs *addrs;
@@ -253,7 +253,7 @@ UIWebView *web_view_doc ,*webView;
     int WWANSent = 0;
     int WWANReceived = 0;
     
-    NSString *name=[[[NSString alloc]init]autorelease];
+    NSString *name=[[NSString alloc]init];
     
     success = getifaddrs(&addrs) == 0;
     if (success)
@@ -301,7 +301,7 @@ UIWebView *web_view_doc ,*webView;
    // [self.commandDelegate sendPluginResult:pluginResult callbackId:[self.callbackID valueForKey:@"successCallBack"]];
     [self writeJavascript:[pluginResult toSuccessCallbackString:self.callbackID]];
     
-}
+}*/
 /*//////////////////////////////////
  @interface PreviewDataSource : NSObject<QLPreviewControllerDataSource> {
     NSString *path;

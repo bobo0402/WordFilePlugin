@@ -14,9 +14,9 @@
     
     @property (nonatomic, copy) NSString* callbackID;
     // Instance Method
-+ (NSArray *)getTraffic;    
+//+ (NSArray *)getTraffic;
 - (void) exportJjyxbg:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
-- (void)getTraffic:(CDVInvokedUrlCommand *)command;
+//- (void)getTraffic:(CDVInvokedUrlCommand *)command;
 //- (NSInteger)numberOfPreviewItemsInPreviewController:(QLPreviewController *)controller;
 //- (id <QLPreviewItem>)previewController:(QLPreviewController *)controller previewItemAtIndex:(NSInteger)index;
 @end
