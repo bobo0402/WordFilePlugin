@@ -119,7 +119,7 @@ UIWebView *web_view_doc ,*webView;
         
     }
 
-    -(void)exportJjyxbg:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options
+    -(void)exportJjyxbg:(CDVInvokedUrlCommand *)command
     {
         
         
@@ -127,7 +127,9 @@ UIWebView *web_view_doc ,*webView;
         //NSString *x = arguments.count;
         //NSString *string = [arguments componentsJoinedByString:@" *** "];
         //int i = arguments.count;
-        NSString *string = [arguments objectAtIndex:1];
+		self.callbackID = command.callbackId;
+		NSArray *arguments = command.arguments;
+        NSString *string = [arguments objectAtIndex:0];
         
 //        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:string
 //                                                        message:nil
