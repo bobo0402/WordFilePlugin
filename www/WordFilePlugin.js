@@ -1,4 +1,4 @@
-cordova.define("com.berheley.main.plugins.WordFilePlugin.WordFilePlugin", function(require, exports, module) { 
+
 	var exec = require("cordova/exec");
    
 	var wordFilePlugin = function() {
@@ -10,4 +10,4 @@ cordova.define("com.berheley.main.plugins.WordFilePlugin.WordFilePlugin", functi
 	
 	module.exports = wordFilePlugin;   
 
-});
+
